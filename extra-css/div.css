@@ -1,0 +1,14 @@
+.horizontal {
+    display: flex!important;
+    align-content: flex-start;
+    justify-content: space-between;
+    align-items: center!important;
+}
+
+.horizontal_box {
+    display: flex!important;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}

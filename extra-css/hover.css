@@ -1,0 +1,43 @@
+
+.box_row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+.box_sq {
+    background-color: black;
+    color: white;
+
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.box_sq:hover {
+    background-color: white;
+    color: black;
+
+}
+
+p.box_sq_text {
+    color: black;
+    padding: 3%;
+}
+
+p.box_sq_text:hover {
+    color: white;
+}
+
+.box_img {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.text {
+    padding: 5%;
+}

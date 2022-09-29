@@ -1,0 +1,26 @@
+/* [Master Stylesheet - v1.0] */
+/* :: 1.0 Import Fonts */
+@import url("https://fonts.googleapis.com/css?family=Archivo+Narrow:400,400i,500,500i,600,600i,700,700i");
+/* :: 2.0 Import All CSS */
+/* :: 2.0 Import All CSS */
+@import url(css/normal.css);
+@import url(css/bootstrap.min.css);
+@import url(css/classy-nav.css);
+@import url(css/owl.carousel.min.css);
+@import url(css/animate.css);
+@import url(css/magnific-popup.css);
+@import url(css/font-awesome.min.css);
+@import url(css/audioplayer.css);
+@import url(css/one-music-icon.css);
+@import url(css/button.css);
+/* ------ Extra import ------*/
+@import url(extra-css/hover-bright.css);
+@import url(extra-css/terminal.css);
+@import url(extra-css/hr.css);
+@import url(extra-css/hover.css);
+@import url(extra-css/img.css);
+@import url(extra-css/color-font.css);
+@import url(extra-css/link.css);
+@import url(extra-css/boxsice.css);
+@import url(extra-css/div.css);
+@import url(extra-css/button.css);

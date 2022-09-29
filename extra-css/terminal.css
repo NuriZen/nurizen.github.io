@@ -1,0 +1,17 @@
+.terminal {
+    color: rgb(255, 255, 255);
+    font-weight: 100;font-family: consolas, monaco, monospace;
+    background-color: rgb(0, 0, 0);
+    font-size: 35;
+    font-weight: 400;
+
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+}
+
+b.header {
+    color: rgb(66, 66, 255);
+    font-size: 35;
+    font-weight: 400;
+}
