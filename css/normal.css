@@ -120,11 +120,13 @@
   /* :: 3.3.0 Section Padding */
   .section-padding-100 {
     padding-top: 100px;
-    padding-bottom: 100px; }
+    padding-bottom: 100px;
+    }
   
   .section-padding-100-0 {
-    padding-top: 100px;
-    padding-bottom: 0; }
+    /* padding-top: 100px; */
+    padding-bottom: 0;
+    }
   
   .section-padding-0-100 {
     padding-top: 0;
@@ -1642,4 +1644,29 @@
   
   .list {
     list-style-type: circle;
+  }
+
+  .level{
+    display: flex!important;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+  }
+
+  .levelbox{
+    background-color: rgba(0, 0, 255, 0.185);
+    width: 30%;
+    height: 555px;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
+  .leveltext {
+    /* height: 100%; */
+    width: 100%;
+    padding: 2px;
+    padding-top: 10px;
+    background-color: #000;
+    color: white;
+    text-align: center;
   }
