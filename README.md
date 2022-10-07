@@ -1,5 +1,5 @@
-# aroa-dev.github.io
+# nurizen.github.io
 
 Code for online webpage 
 
-page link [aroa-dev.github.io](https://aroa-dev.github.io/)
+page link [aroa-dev.github.io](https://nurizen.github.io/)
