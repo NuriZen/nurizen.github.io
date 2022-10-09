@@ -2,4 +2,4 @@
 
 Code for online webpage 
 
-page link [nurizen.github.io](https://nurizen.github.io/)
+[page link](https://nurizen.github.io/).
