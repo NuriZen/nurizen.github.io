@@ -1,9 +1,0 @@
-.buy {
-    border-radius: 5px;
-    background-color: orange;
-    padding: 5px;
-}
-
-.buy:hover {
-    background-color: gold;
-}
