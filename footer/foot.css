@@ -1,0 +1,23 @@
+html {
+    -webkit-text-size-adjust: 100%;
+}
+body {
+    margin: 0%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    max-height: 55px;
+    font-family: Verdana,sans-serif;
+    max-height: 60;
+}
+.footer {
+    padding-top: 10px;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 20px;
+    /*filter: brightness(100%);*/
+    background:url(img/Footer/grey_footer.svg);
+    background-size: 100% ;
+    -o-background-size: 100%;
+    -webkit-background-size: 100%;
+    background-size: cover;
+}
