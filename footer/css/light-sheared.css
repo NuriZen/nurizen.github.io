@@ -1,0 +1,7 @@
+.footer {
+    background:url(img/Footer/grey_footer.svg);
+    background-size: 100% ;
+    -o-background-size: 100%;
+    -webkit-background-size: 100%;
+    background-size: cover;
+}

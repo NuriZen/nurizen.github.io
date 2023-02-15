@@ -9,7 +9,7 @@ body {
 
     max-height: 55px;
     background-color: #252525;
-    color: wheat;
+    color: whitesmoke;
     font-family: Verdana,sans-serif;
 
     max-height: 60;
@@ -38,7 +38,7 @@ body {
 }
 
 .a-link {
-    color: wheat;
+    color: whitesmoke;
     text-decoration: none;
 }
 .a-link:hover {

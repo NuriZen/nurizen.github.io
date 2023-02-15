@@ -1,0 +1,11 @@
+.banner {
+    width: 100%;
+    min-height: 250px;
+    max-height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    background-image: url(img/muve-2.png);
+}
