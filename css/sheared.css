@@ -1,0 +1,70 @@
+html {
+    -webkit-text-size-adjust: 100%;
+    text-size-adjust: auto;
+}
+body {
+    margin: 0px;
+    padding: 0%;
+    -webkit-font-smoothing: antialiased;
+    font-family: Gotham-Bold,sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 0.5;
+
+    scroll-behavior: smooth;
+    scroll-padding: 2em;
+}
+
+.banner {
+    width: 100%;
+    min-height: 250px;
+    max-height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(img/muve-2.png);
+}
+
+.w-banner {
+    height: 50px;
+    padding-left: 0;
+}
+
+.menu-a {
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+nav ul.dropdown {
+    position: relative;
+    display: inline-block;
+}
+nav ul.dropdown ul.sub-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 120%;
+    display: none;
+}
+nav ul.dropdown:hover ul.sub-menu {
+    display: block;
+}
+nav ul.dropdown li {
+    display: inline-block;
+    padding: 10px;
+}
+nav ul.dropdown ul.sub-menu li {
+    display: block;
+    background-color: #eaeaea;
+    padding: 10px;
+}  
+
+.submenu-s {
+    height: 18px;
+    background-color: aqua;
+}
+.sub-menu a {
+    color: black;
+}

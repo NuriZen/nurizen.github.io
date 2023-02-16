@@ -1,20 +1,6 @@
-@import url(css/css-color.css);
+@import url(css/sheared.css);
 /*      Sheared css     */
-html {
-    -webkit-text-size-adjust: 100%;
-    text-size-adjust: auto;
-}
-body {
-    margin: 0px;
-    padding: 0%;
-    -webkit-font-smoothing: antialiased;
-    color: #000;
-    font-family: Gotham-Bold,sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-    letter-spacing: 0;
-    line-height: 0.5;
-}
+
 .nav {
     width: 100%; 
     min-height: 60px; 
@@ -31,3 +17,4 @@ body {
     height: 147px;
     border-top: rgb(211, 211, 211) 1px solid;
 }
+
