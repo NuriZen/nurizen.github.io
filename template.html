@@ -24,16 +24,19 @@
     <link rel="icon" type="image/png" sizes="192x192" href="https://avatars.githubusercontent.com/u/114168819?s=200&v=4" style="border-radius: 10%;">
     <link rel="icon" type="image/png" sizes="32x32" href="https://avatars.githubusercontent.com/u/114168819?s=200&v=4" style="border-radius: 10%;">
     <link rel="icon" type="image/png" sizes="96x96" href="https://avatars.githubusercontent.com/u/114168819?s=200&v=4" style="border-radius: 10%;">
-    <link rel="icon" type="image/png" sizes="16x16" href="https://avatars.githubusercontent.com/u/114168819?s=200&v=4" style="border-radius: 10%;">
+    <link rel="icon" type="image/ png" sizes="16x16" href="https://avatars.githubusercontent.com/u/114168819?s=200&v=4" style="border-radius: 10%;">
 
     <!-- Stylesheet -->
     <link rel="stylesheet" href="style.css">
+    <!--    JQ      -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
-</head>
+</head> 
+<body>
 
 <div>
 
-    <!-- Preloader -->
+    <!-- Preloader 
     <div class="preloader d-flex align-items-center justify-content-center">
         <div class="lds-ellipsis">
             <div></div>
@@ -42,96 +45,36 @@
             <div></div>
         </div>
     </div>
+-->
+<header class="header-area">
+    <!-- Navbar Area -->
+    <div class="oneMusic-main-menu">
+        <div class="classy-nav-container breakpoint-off">
+        <div class="nav-box-box breakpoint-off">
+            <div id="menu"></div>
+            <script>
+              $(function(){
+              $("#menu").load("Menu.html");
+              });
+            </script>
+        </div>
+    </div>
+</div>
+</header>
 
-        <!-- ##### Header Area Start ##### -->
-        <header class="header-area">
-            <!-- Navbar Area -->
-            <div class="oneMusic-main-menu">
-                <div class="classy-nav-container breakpoint-off">
-                    <div class="container">
-                        <!-- Menu -->
-                        <nav class="classy-navbar justify-content-between" id="oneMusicNav">
-    
-                            <!-- Nav brand -->
-                            <a href="index.html" class="nav-brand"><img src="img/kali/logo2.png" alt=""></a>
-    
-                            <!-- Navbar Toggler -->
-                            <div class="classy-navbar-toggler">
-                                <span class="navbarToggler"><span></span><span></span><span></span></span>
-                            </div>
-    
-                            <!-- Menu -->
-                            <div class="classy-menu">
-    
-                                <!-- Close Button -->
-                                <div class="classycloseIcon">
-                                    <div class="cross-wrap"><span class="top"></span><span class="bottom"></span></div>
-                                </div>
-    
-                                <!-- Nav Start -->
-                                <div class="classynav">
-                                    <ul>
-                                        <li><a href="index.html">Home</a></li>
-                                        <li><a href="#">Entrenamientos</a>
-                                            <ul class="dropdown">
-    
-                                                <li><a href="#">Principiante</a>
-                                                    <ul class="dropdown">
-                                                        <li><a href="">Pecho</a></li>
-                                                        <li><a href="">Piernas</a></li> 
-                                                        <li><a href="">etc...</a></li>
-                                                        <li><a href="">etc...</a></li>
-                                                    </ul>
-                                                </li>
-
-                                                <li><a href="#">Intermedio</a>
-                                                    <ul class="dropdown">
-                                                        <li><a href="">Pecho</a></li>
-                                                        <li><a href="">Piernas</a></li> 
-                                                        <li><a href="">etc...</a></li>
-                                                        <li><a href="">etc...</a></li>
-                                                    </ul>
-                                                </li>                                               
-                                                
-                                                <li><a href="#">Avanzado</a>
-                                                    <ul class="dropdown">
-                                                        <li><a href="">Pecho</a></li>
-                                                        <li><a href="">Piernas</a></li> 
-                                                        <li><a href="">etc...</a></li>
-                                                        <li><a href="">etc...</a></li>
-                                                    </ul>
-                                                </li>
-
-                                            </ul>
-                                        </li>
-                                        <li><a href="event.html">Entrenadores</a></li>
-                                    </ul>
-    
-                                    <!-- Login/Register & Cart Button -->
-                                    <div class="login-register-cart-button d-flex align-items-center">
-                                        <!-- Login/Register -->
-                                        <div class="login-register-btn mr-50">
-                                            <a href="#" id="loginBtn" style="color:rgba(255, 255, 255, .100%) ;"></a>
-                                                                               
-                                        </div>
-    
-                                        <!-- Cart Button -->
-                                        <div class="cart-btn">
-                                         <!--  <p><span class="icon-shopping-cart"></span> <span class="quantity">1</span></p>--> 
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- Nav End -->
-    
-                            </div>
-                        </nav>
-                    </div>
-                </div>
-            </div>
-        </header>
+    <!-- Nav menu -->
     
     <!-- ==================================================================== ##### Header Area End ================================================================ ##### -->
 
+    <!--
+           _____   ____                    _____  ________      __
+     /\   |  __ \ / __ \   /\             |  __ \|  ____\ \    / /
+    /  \  | |__) | |  | | /  \    ______  | |  | | |__   \ \  / / 
+   / /\ \ |  _  /| |  | |/ /\ \  |______| | |  | |  __|   \ \/ /  
+  / ____ \| | \ \| |__| / ____ \          | |__| | |____   \  /   
+ /_/    \_\_|  \_\\____/_/    \_\         |_____/|______|   \/   
+    
+-->
     <!-- ##### Title Area Start ##### -->
     <section class="breadcumb-area bg-img bg-overlay" style="background-image: url(img/back.jfif);">
         <div class="bradcumbContent">
@@ -207,10 +150,12 @@
 
                     <!-- Blog Content -->
                     <div class="blog-content">
-                        <!-- Post Title -->
-                        <a href="#" class="post-title"></a>
-                        <!-- Post Excerpt -->
-                        <p></p>
+                        <div id="Loader"></div>
+                        <script>
+                          $(function(){
+                          $("#Loader").load("loaders/load.html");
+                          });
+                        </script>
                     </div>
                 </div>
             </div>
@@ -264,11 +209,7 @@
                         </div>
                         <div class="widget-content">
                             <ul>
-
                                <a href=""><li>Principiante</li></a> 
-                               <a href=""><li>Intermedio</li></a>
-                               <a href=""><li>Avanzado</li></a>
-
                             </ul>
                         </div>
                     </div>
