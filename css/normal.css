@@ -1689,11 +1689,11 @@
   }
 
 
-
-  .container {
+  .container-level {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    margin: 5%;
   }
   
   .box {
@@ -1731,11 +1731,24 @@
     align-items: center;
     font-size: 20px;
     font-weight: bold;
+
+  }
+  .text-level {
+    background-color: #eee;
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    font-size: 14px;
+    line-height: 1.5;
+    text-align: justify;
+    margin-left: 2%;
+    margin-right: 2%;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
   }
   
   @media only screen and (max-width: 767px) {
     .box {
       width: 100%;
     }
-  }
-  
+  }  
