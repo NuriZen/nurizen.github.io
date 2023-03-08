@@ -24,16 +24,19 @@
     <link rel="icon" type="image/png" sizes="192x192" href="https://avatars.githubusercontent.com/u/114168819?s=200&v=4" style="border-radius: 10%;">
     <link rel="icon" type="image/png" sizes="32x32" href="https://avatars.githubusercontent.com/u/114168819?s=200&v=4" style="border-radius: 10%;">
     <link rel="icon" type="image/png" sizes="96x96" href="https://avatars.githubusercontent.com/u/114168819?s=200&v=4" style="border-radius: 10%;">
-    <link rel="icon" type="image/png" sizes="16x16" href="https://avatars.githubusercontent.com/u/114168819?s=200&v=4" style="border-radius: 10%;">
+    <link rel="icon" type="image/ png" sizes="16x16" href="https://avatars.githubusercontent.com/u/114168819?s=200&v=4" style="border-radius: 10%;">
 
     <!-- Stylesheet -->
     <link rel="stylesheet" href="style.css">
+    <!--    JQ      -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
-</head>
+</head> 
+<body>
 
 <div>
 
-    <!-- Preloader -->
+    <!-- Preloader 
     <div class="preloader d-flex align-items-center justify-content-center">
         <div class="lds-ellipsis">
             <div></div>
@@ -42,93 +45,24 @@
             <div></div>
         </div>
     </div>
+-->
+<header class="header-area">
+    <!-- Navbar Area -->
+    <div class="oneMusic-main-menu">
+        <div class="classy-nav-container breakpoint-off">
+        <div class="nav-box-box breakpoint-off">
+            <div id="menu"></div>
+            <script>
+              $(function(){
+              $("#menu").load("Menu.html");
+              });
+            </script>
+        </div>
+    </div>
+</div>
+</header>
 
-        <!-- ##### Header Area Start ##### -->
-        <header class="header-area">
-            <!-- Navbar Area -->
-            <div class="oneMusic-main-menu">
-                <div class="classy-nav-container breakpoint-off">
-                    <div class="container">
-                        <!-- Menu -->
-                        <nav class="classy-navbar justify-content-between" id="oneMusicNav">
-    
-                            <!-- Nav brand -->
-                            <a href="index.html" class="nav-brand"><img src="img/kali/logo2.png" alt=""></a>
-    
-                            <!-- Navbar Toggler -->
-                            <div class="classy-navbar-toggler">
-                                <span class="navbarToggler"><span></span><span></span><span></span></span>
-                            </div>
-    
-                            <!-- Menu -->
-                            <div class="classy-menu">
-    
-                                <!-- Close Button -->
-                                <div class="classycloseIcon">
-                                    <div class="cross-wrap"><span class="top"></span><span class="bottom"></span></div>
-                                </div>
-    
-                                <!-- Nav Start -->
-                                <div class="classynav">
-                                    <ul>
-                                        <li><a href="index.html">Home</a></li>
-                                        <li><a href="#">Entrenamientos</a>
-                                            <ul class="dropdown">
-    
-                                                <li><a href="#">Principiante</a>
-                                                    <ul class="dropdown">
-                                                        <li><a href="">Pecho</a></li>
-                                                        <li><a href="">Piernas</a></li> 
-                                                        <li><a href="">etc...</a></li>
-                                                        <li><a href="">etc...</a></li>
-                                                    </ul>
-                                                </li>
-
-                                                <li><a href="#">Intermedio</a>
-                                                    <ul class="dropdown">
-                                                        <li><a href="">Pecho</a></li>
-                                                        <li><a href="">Piernas</a></li> 
-                                                        <li><a href="">etc...</a></li>
-                                                        <li><a href="">etc...</a></li>
-                                                    </ul>
-                                                </li>                                               
-                                                
-                                                <li><a href="#">Avanzado</a>
-                                                    <ul class="dropdown">
-                                                        <li><a href="">Pecho</a></li>
-                                                        <li><a href="">Piernas</a></li> 
-                                                        <li><a href="">etc...</a></li>
-                                                        <li><a href="">etc...</a></li>
-                                                    </ul>
-                                                </li>
-
-                                            </ul>
-                                        </li>
-                                        <li><a href="event.html">Entrenadores</a></li>
-                                    </ul>
-    
-                                    <!-- Login/Register & Cart Button -->
-                                    <div class="login-register-cart-button d-flex align-items-center">
-                                        <!-- Login/Register -->
-                                        <div class="login-register-btn mr-50">
-                                            <a href="#" id="loginBtn" style="color:rgba(255, 255, 255, .100%) ;"></a>
-                                                                               
-                                        </div>
-    
-                                        <!-- Cart Button -->
-                                        <div class="cart-btn">
-                                         <!--  <p><span class="icon-shopping-cart"></span> <span class="quantity">1</span></p>--> 
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- Nav End -->
-    
-                            </div>
-                        </nav>
-                    </div>
-                </div>
-            </div>
-        </header>
+    <!-- Nav menu -->
     
     <!-- ==================================================================== ##### Header Area End ================================================================ ##### -->
 
@@ -141,9 +75,7 @@
  /_/    \_\_|  \_\\____/_/    \_\         |_____/|______|   \/   
     
 -->
-
-
-    <!-- ##### Hero Area Start ##### -->
+<!-- ##### Hero Area Start ##### -->
     <section class="hero-area">
         <div class="hero-slides owl-carousel">
             <!-- Single Hero Slide -->
@@ -166,7 +98,7 @@
             <!-- Single Hero Slide -->
             <div class="single-hero-slide d-flex align-items-center justify-content-center">
                 <!-- Slide Img -->
-                <div class="slide-img bg-img" style="background-image: url(img/muve-2.png);"></div>
+                <div class="slide-img bg-img" style="background-image: url(img/muve-2.png); filter: invert(100%);"></div>
                 <!-- Slide Content -->
                 <div class="container">
                     <div class="row">
@@ -183,7 +115,7 @@
         </div>
     </section>
     <!-- ##### Hero Area End ##### -->
-    <section class="section-padding-100" style="background-color: black;">
+    <section class="section-padding-100" style="background-color: #2a2a2a;">
         <div class="container">
             <div class="row">
                 <div class="col-12">
@@ -195,10 +127,10 @@
             <div class="row justify-content-center">
                 <div class="">
                     <div class="ablums-text text-center mb-70">
-                        <p style="color: rgb(255, 255, 255); font-size: 18px; ">Esto es una pagina para un proyecto de escolar no una pagina profesional,</p>
-                        <p style="color: rgb(255, 255, 255); font-size: 18px; ">Todos los entrenamientos y consejos están echos por estudiantes de 1 y 2  año del programa de estudios  IB</p>
+                        <p style="color: #ffffff; font-size: 18px; ">Esto es una pagina para un proyecto de escolar no una pagina profesional,</p>
+                        <p style="color: #ffffff; font-size: 18px; ">Todos los entrenamientos y consejos están echos por estudiantes de 1 y 2  año del programa de estudios  IB</p>
                         <br>
-                        <p style="color: rgb(108, 108, 108);">Developed by <a href="https://github.com/AROA-DEV" target="_blank"><b class="glow">AROA-DEVELOPMENT</b></a></p>
+                        <p style="color: #cccccc;">Developed by <a href="https://github.com/AROA-DEV" target="_blank"><b class="glow">AROA-DEVELOPMENT</b></a></p>
                     </div>
                 </div>
             </div>
@@ -207,64 +139,30 @@
 </section>
 
 <br>
-<h1 style="text-align: center;">Los Niveles</h1>
-<h3 style="text-align: center;">Elige los niveles dependiendo de tus habilidades, se sincero con ti mismo</h3>
 <br>
-<!-- box for leveles -->
-<div class="level" stytle="">
 
-    <!-- levele 1 -->
-    <div class="levelbox" id="box1">
-        <div id="img"><img src="https://www.formacionacadef.es/wp-content/uploads/2020/04/Programa-de-entrenamiento-para-principiantes-absolutos-1080x675.jpg" alt=""></div>
-        <div class="leveltext" id="text">
-            <h3><b>Principiantes</b></h3>
-            <br>
-            <p>Si eres un principiante en el ejercicio o hace mucho tiempo que no haces ejercicio, 
-                puede que te preguntes exactamente por dónde empezar. El primer paso es aprender los 
-                fundamentos de cómo establecer un programa de entrenamiento.</p>
-            <br>
-            <div class="button1">
-                <a href="" target="_blank"><button class="button"><span>Empieza</span></button></a>
-            </div>
-        </div>
+<div class="container-level">
+
+    <div class="box">
+      <div class="image"><img src="https://www.formacionacadef.es/wp-content/uploads/2020/04/Programa-de-entrenamiento-para-principiantes-absolutos-1080x675.jpg"></div>
+      <div class="label">Beginner</div>
+      <div class="text-level">Vivamus quis elit arcu. Aenean in vestibulum metus. Fusce vestibulum euismod lacus vitae bibendum. Aliquam erat volutpat.</div>
     </div>
 
-    <!-- levele 2 -->
-    <div class="levelbox" id="box2">
-        <div id="img"><img src="img/arnol.png" alt=""></div>
-        <div class="leveltext" id="text">
-            <h3><b>Intermedios</b></h3>
-            <br>
-            <p>Si ya tienes experiencia, tu nivel físico o capacidad para entrenar es de un nivel intermedio
-                 y quieres aumentar tu masa muscular, ¡este entrenamiento es para ti!</p>
-            <br>
-            <div class="button1">
-                <a href="" target="_blank"><button class="button"><span>Empieza</span></button></a>
-            </div>
-        </div>
+    <div class="box">
+      <div class="image"><img src="img/arnol.png"></div>
+      <div class="label">Intermediate</div>
+      <div class="text-level">Vivamus quis elit arcu. Aenean in vestibulum metus. Fusce vestibulum euismod lacus vitae bibendum. Aliquam erat volutpat.</div>
     </div>
 
-    <!-- levele 3 -->
-    <div class="levelbox" id="box3">
-        <div id="img"><img src="img/intermedio.png" alt=""></div>
-        <div class="leveltext" id="text">
-            <h3><b>Avanzados</b></h3>
-            <br>
-            <p></p>
-            <br>
-            <div class="button1">
-                <a href="" target="_blank"><button class="button"><span>Empieza</span></button></a>
-            </div>
-        </div>
+    <div class="box">
+      <div class="image"><img src="img/intermedio.png"></div>
+      <div class="label">Advanced</div>
+      <div class="text-level">Vivamus quis elit arcu. Aenean in vestibulum metus. Fusce vestibulum euismod lacus vitae bibendum. Aliquam erat volutpat.</div>
     </div>
 
-</div>
-<div>
-</div>
-
-<br>
-<br>
-<br>
+  </div>
+  
 <br>
 <br>
 
@@ -272,9 +170,16 @@
     <h1>Nutrición</h1>
     <p>Todos tenemos un cuerpo distintos, por eso todos necesitamos un plan echo ha medida. Contactados y uno de nuestros especialistas te hará un plan dedicado</p>
     <div class="button1">
-        <a href="contact.html"><button class="button" style="border: 1px solid; max-width: 20%;"><span><b>Contactanos</b></span></button></a>
+        <a href="Login/Login.html"><button class="button" style="border: 1px solid; max-width: 20%;"><span><b>Contactanos</b></span></button></a>
     </div>
 </div>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
 <br>
 <br>

@@ -403,7 +403,7 @@ img {
 .breakpoint-on .classy-navbar-toggler {
   display: block; }
 .breakpoint-on .classy-navbar .classy-menu {
-  background-color: #ffffff;
+  background-color: #000000;
   position: fixed;
   top: 0;
   left: -310px;
